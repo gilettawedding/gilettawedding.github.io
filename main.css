@@ -1,0 +1,138 @@
+html {
+    background: #5BD3FF;
+	height: 100%;
+}
+body {
+	background: url("images/backgrounds/texture.png") repeat scroll top left;
+	font-family: sans-serif;	
+}
+.wrapper {
+    margin: 0px auto;
+    position: relative;
+    width: 960px;
+	background: none no-repeat transparent;
+}
+#header {
+    height: 285px;
+	width: 576px;
+    position: relative;
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	background: url("images/backgrounds/header.png") no-repeat scroll;
+} 
+#header h1 {
+	display: block;
+	position: relative;
+	margin: 0px;
+}          
+#header h2 {
+	float: right;
+	display: block;
+	position: relative;
+}                      
+
+#header .menu {
+    background: none repeat scroll 0 0 transparent #1a2b3c;
+    position: absolute;
+	left: 117px;
+	bottom: 5px;
+	display: inline-block;
+	font-family: Duality-Regular;
+	font-size: 48px;
+}
+#header .menu li {
+    border: none;
+    display: inline-block;
+    float: left;
+    height: 30px;
+	background: #f0f0f0;
+    list-style-type: none outside none;
+    margin: 0 auto;
+    padding: 0 auto;
+	font-family: Duality-Regular;
+	font-size: 24px;
+}
+#header .menu li a {
+    color: blue;
+    display: inline-block;
+    float: left;
+    padding: 0 0 0 0;
+    position: relative;
+    text-decoration: none;
+	/*text-indent: -9999em; */
+	height: 37px;   
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#header .menu li#home a {   
+	width: 114px;
+	background-image: url("images/menu/home.png");
+}
+#header .menu li#info a{ 
+	width: 114px;
+	background-image: url("images/menu/services.png");
+}                                      
+#header .menu li#register a{
+	width: 114px;
+	background-image: url("images/menu/company.png");
+}                                       
+
+#header .menu li a:hover, .menu li a:focus {
+    background-position: left bottom !important;
+}
+
+.content { 
+	margin: 10px auto 0 auto;
+    position: relative; 
+    clear: both;
+    padding: 10px;
+	background: #fafafa scroll;
+}
+.content p {
+	color: #939391;
+	font-weight: 100;
+	line-height: 1.9;  
+}
+.content p strong{
+	color: #afafad;
+}
+/*
+.content .wrapper {
+    overflow: hidden;
+} 
+*/
+.content .sidebar-left {
+    float: left;
+    padding-left: 21px;
+    margin-top: 7px;
+    width: 425px;
+}
+.content .sidebar-right {
+    float: right;
+    width: 468px;
+} 
+
+/*
+#footer a:link {
+    color: #5485DF;
+    text-decoration: none;
+}
+#footer a:visited {
+    color: #2C5AAB;
+}
+#footer a:hover, #footer a:focus {
+    text-decoration: underline;
+}
+#footer {
+    background: url("../images/backgrounds/footer.png") repeat-y scroll 50% 0 transparent;
+    color: #A9A9A9;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+#footer .main {
+    float: left;
+    width: 733px;
+}
+*/
