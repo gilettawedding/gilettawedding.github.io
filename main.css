@@ -106,15 +106,15 @@ body {
 	text-decoration: underline;
 	font-family: ;
 	font-size: 24px;
-	color: #cfcfcf;
+	color: #3f3f3f;
 }
 .content p {
-	color: #939391;
+	color: #838381;
 	font-weight: 100;
 	line-height: 1.9;  
 }
 .content p strong{
-	color: #afafad;
+	color: #5f5f5d;
 }
 /*
 .content .wrapper {
