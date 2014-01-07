@@ -37,7 +37,7 @@ body {
     position: absolute;
 	width: 536px;
 	bottom: 0px;
-	margin: 0 auto;
+	margin: 0px auto;
 	display: inline-block;
 	font-family: Duality-Regular;
 	font-size: 48px;
@@ -50,7 +50,6 @@ body {
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
-    padding: 0 auto;
 	font-family: Duality-Regular;
 	font-size: 24px;
 }
