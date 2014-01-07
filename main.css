@@ -47,7 +47,7 @@ body {
     display: inline-block;
     float: left;
     height: 30px;
-	background: #f0f0f0;
+	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
     padding: 0 auto;
