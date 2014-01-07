@@ -35,8 +35,9 @@ body {
 #header .menu {
     background: none repeat scroll 0 0 transparent #1a2b3c;
     position: absolute;
+	width: 100%;
 	bottom: 0px;
-	margin: 0 auto;
+	margin: 0px auto;
 	display: inline-block;
 	font-family: Duality-Regular;
 	font-size: 48px;
