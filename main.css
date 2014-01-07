@@ -70,18 +70,19 @@ body {
 
 #header .menu li#home a {  
 	text-align: center; 
+	width: 114px;	
+}
+#header .menu li#venue a {  
+	text-align: center; 
 	width: 114px;
-	background-image: url("images/menu/home.png");
 }
 #header .menu li#info a{ 
 	text-align: center; 
 	width: 114px;
-	background-image: url("images/menu/services.png");
 }                                      
 #header .menu li#register a{
 	text-align: center; 
 	width: 114px;
-	background-image: url("images/menu/company.png");
 }                                       
 
 #header .menu li a:hover, .menu li a:focus {
