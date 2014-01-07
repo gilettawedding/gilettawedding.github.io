@@ -35,6 +35,7 @@ body {
 #header .menu {
     background: none repeat scroll 0 0 transparent #1a2b3c;
     position: absolute;
+	bottom: 0px;
 	margin: 0 auto;
 	display: inline-block;
 	font-family: Duality-Regular;
@@ -60,7 +61,7 @@ body {
     position: relative;
     text-decoration: none;
 	/*text-indent: -9999em; */
-	height: 37px;   
+	height: 30px;   
 	background-position: left top;
 	background-repeat: no-repeat;
 }
