@@ -121,17 +121,6 @@ body {
     overflow: hidden;
 } 
 */
-.content .sidebar-left {
-    float: left;
-    padding-left: 21px;
-    margin-top: 7px;
-    width: 425px;
-}
-.content .sidebar-right {
-    float: right;
-    width: 468px;
-} 
-
 /*
 #footer a:link {
     color: #5485DF;
