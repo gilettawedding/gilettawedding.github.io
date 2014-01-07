@@ -96,11 +96,17 @@ body {
 	background: #fafafa scroll;
 }
 .content h1 {
+	padding: 10px 0 20px 0;
 	text-align: center;
 	font-family: Duality-Regular;
 	font-size: 64px;
-	font-style: underline;
 	color: #00AE9E;
+}
+.content h3 {
+	text-decoration: underline;
+	font-family: ;
+	font-size: 48px;
+	color: #afafaf;
 }
 .content p {
 	color: #939391;
