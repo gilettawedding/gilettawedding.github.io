@@ -37,7 +37,7 @@ body {
     position: absolute;
 	width: 576px;
 	bottom: 0px;
-	margin: 0px auto;
+	padding: 0px auto;
 	display: inline-block;
 	font-family: Duality-Regular;
 	font-size: 48px;
@@ -59,7 +59,7 @@ body {
     display: inline-block;
     float: left;
     padding: 5px 10px;
-	margin: 0 50%;
+	margin: 0;
     position: relative;
     text-decoration: none;
 	/*text-indent: -9999em; */
