@@ -33,7 +33,7 @@ body {
 	position: relative;
 }                      
 */
-#header .menu {
+#header ol.menu{
     background: none repeat scroll 0 0 transparent #1a2b3c;
     position: absolute;
 	width: 536px;
@@ -43,7 +43,7 @@ body {
 	font-family: Duality-Regular;
 	font-size: 48px;
 }
-#header .menu li {
+#header ol.menu li {
     border: none;
     display: inline-block;
     height: 30px;
