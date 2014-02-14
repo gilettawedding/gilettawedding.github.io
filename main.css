@@ -45,10 +45,10 @@ body {
 }
 
 .first {
-	float: left;
+	left: 0;
 }
 .last {
-	float: right;
+	right: 0;
 }
 #header ol.menu li {
     border: none;
