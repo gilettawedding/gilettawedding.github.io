@@ -66,14 +66,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.first {
-	float: left;
-}
-
-.last {
-	float: right;
-}
-
 #header .menu li#home a {  
 	text-align: center; 
 	width: 114px;	
