@@ -45,7 +45,7 @@ body {
 #header .menu li {
     border: none;
     display: inline-block;
-    float: left;
+    float: none;
     height: 30px;
 	background: none transparent;
     list-style-type: none outside none;
@@ -56,8 +56,8 @@ body {
 #header .menu li a {
     color: blue;
     display: inline-block;
-    float: left;
-    padding: 5px 10px;
+    float: none;
+    padding: 5px 0px;
 	margin: 0;
     position: relative;
     text-decoration: none;
