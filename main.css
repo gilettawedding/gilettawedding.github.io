@@ -66,6 +66,9 @@ body {
 	background-position: left top;
 	background-repeat: no-repeat;
 }
+.last {
+	float: right;
+}
 
 #header .menu li#home a {  
 	text-align: center; 
