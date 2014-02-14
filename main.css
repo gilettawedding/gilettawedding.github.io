@@ -43,11 +43,18 @@ body {
 	font-family: Duality-Regular;
 	font-size: 48px;
 }
+
+.first {
+	float: left;
+}
+.last {
+	float: right;
+}
 #header ol.menu li {
     border: none;
     display: inline-block;
     height: 30px;
-	width: 114px;
+	width: auto;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
