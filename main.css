@@ -47,7 +47,6 @@ body {
     border: none;
     display: inline-block;
     height: 30px;
-	width: 30%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
@@ -61,25 +60,22 @@ body {
     position: relative;
     text-decoration: none;
 	/*text-indent: -9999em; */
-	height: 30px;   
+	height: 30px;
+	width: 100%;  
 	background-position: left top;
 	background-repeat: no-repeat;
 }
 #header .menu li#home a {  
-	text-align: center; 
-	width: 114px;	
+	text-align: center; 	
 }
 #header .menu li#venue a {  
 	text-align: center; 
-	width: 114px;
 }
 #header .menu li#info a{ 
 	text-align: center; 
-	width: 114px;
 }                                      
 #header .menu li#register a{
 	text-align: center; 
-	width: 114px;
 }                                       
 
 #header .menu li a:hover, .menu li a:focus {
