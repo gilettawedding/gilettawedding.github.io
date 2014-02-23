@@ -33,11 +33,11 @@ body {
 	display: inline-block;
 }
 #menu-wrapper ol.menu{
-    background: none repeat scroll 0 0 transparent #1a2b3c;
+    background: #00AE9E;
     position: absolute;
 	width: 100%;
 	bottom: 0px;
-	margin: 0px 20px;
+	margin: 0px 0px;
 	display: inline-block;
 	font-family: Duality-Regular;
 	font-size: 48px;
@@ -54,7 +54,7 @@ body {
 	font-size: 24px;
 }
 #menu-wrapper .menu li a {
-    color: blue;
+    color: #0717e5;
     display: inline-block;
     padding: 5px 0px;
     position: relative;
@@ -79,6 +79,7 @@ body {
 }                                       
 
 #menu-wrapper .menu li a:hover, .menu li a:focus {
+    background-color: #0717e5;
     color: #00AE9E;
 }
 .content { 
