@@ -131,7 +131,7 @@ body {
 	float: left;
 	margin: 0 5px 0 0;
 }
-#word-cloud-wraper img {
+div#word-cloud-wraper img#wordcloud {
 	padding-right: 5px;
 	border: 1px solid #00AE9E;
 }
