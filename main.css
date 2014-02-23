@@ -35,7 +35,7 @@ body {
 #menu-wrapper ol.menu{
     background: none repeat scroll 0 0 transparent #1a2b3c;
     position: absolute;
-	width: 536px;
+	width: 100%;
 	bottom: 0px;
 	margin: 0px 20px;
 	display: inline-block;
@@ -46,7 +46,7 @@ body {
     border: none;
     display: inline-block;
     height: 30px;
-	width: 31.967116%;
+	width: 32%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
