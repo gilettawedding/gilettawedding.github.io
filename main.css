@@ -125,7 +125,9 @@ body {
 	font-weight: 600;
 	color: #5f5f5d;
 }
-
+center{
+	text-align: center;
+}
 
 /*
 .content .wrapper {
