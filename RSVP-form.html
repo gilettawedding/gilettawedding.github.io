@@ -30,65 +30,66 @@
 			</div>
 		</div>
 		<div class= "content">
+			<h1> RSVP Form</h1>
 			<form name="rsvp-form" action="rsvp_yes.php" method="get">
-	      		Please list the names of everyone in your party (please note our guidelines regarding plus ones).</br>
- 	Adult: - <input type="text" name="adult1" required>               Child: - <input type="text" name="child1" required></br>
-	Adult: - <input type="text" name="adult2" required>               Child: - <input type="text" name="child2" required></br>
-	Adult: - <input type="text" name="adult2" required>               Child: - <input type="text" name="child3" required></br></br>
-			<h2 id="travel">Travel Details</h2></br>
-	   			Arrival Date: <select name="arrival-date" required>
-					<option value="friday">Friday</option>
-					<option value="saturday">Saturday</option>
+	  			Please list the names of everyone in your party (please note our guidelines regarding plus ones).</br>
+ 				Adult: - <input type="text" name="adult1" required>               Child: - <input type="text" name="child1" required></br>
+				Adult: - <input type="text" name="adult2" required>               Child: - <input type="text" name="child2" required></br>
+				Adult: - <input type="text" name="adult2" required>               Child: - <input type="text" name="child3" required></br></br>
+				<h2 id="travel">Travel Details</h2></br>
+	    		Arrival Date: <select name="arrival-date" required>
+	    			<option value="friday">Friday</option>
+	    			<option value="saturday">Saturday</option>
+	    			<option value="not-sure">Not sure yet</option>
+	    		</select></br>
+	    		Arrival Time: <select name="arrival-time" required>
+				    <option value="early">Before 9am</option>
+				    <option value="9am">9am</option>
+				    <option value="10am">10am</option>
+				    <option value="11am">11am</option>
+			    	<option value="12pm">12pm</option>
+			    	<option value="1pm">1pm</option>
+			    	<option value="2pm">2pm</option>
+			    	<option value="3pm">3pm</option>
+			    	<option value="4pm">4pm</option>
+					<option value="5pm">5pm</option>
+			    	<option value="6pm">6pm</option>
+			    	<option value="7pm">7pm</option>
+			    	<option value="8pm">8pm</option>
+					<option value="9pm">9pm</option>
+					<option value="after-10">10pm or later</option>
 					<option value="not-sure">Not sure yet</option>
 				</select></br>
-				Arrival Time: <select name="arrival-time" required>
-						<option value="early">Before 9am</option>
-						<option value="9am">9am</option>
-						<option value="10am">10am</option>
-						<option value="11am">11am</option>
-						<option value="12pm">12pm</option>
-						<option value="1pm">1pm</option>
-						<option value="2pm">2pm</option>
-						<option value="3pm">3pm</option>
-						<option value="4pm">4pm</option>
-						<option value="5pm">5pm</option>
-						<option value="6pm">6pm</option>
-						<option value="7pm">7pm</option>
-						<option value="8pm">8pm</option>
-						<option value="9pm">9pm</option>
-						<option value="after-10">10pm or later</option>
-						<option value="not-sure">Not sure yet</option>
-					</select></br>
 				If you don’t have your plans finalized yet, please provide whatever information you can.</br>
 				<textarea rows="10" cols="50">
 				</textarea></br>
 				Departure Date: <select name="departure-date" required>
-						<option value="Saturday">Saturday</option>
-						<option value="Sunday">Sunday</option>
-						<option value="not-sure">Not sure yet</option>
-					</select></br>
+					<option value="Saturday">Saturday</option>
+					<option value="Sunday">Sunday</option>
+					<option value="not-sure">Not sure yet</option>
+				</select></br>
 				Departure Time: <select name="departure-time" required>
-							<option value="early">Before 9am</option>
-							<option value="9am">9am</option>
-							<option value="10am">10am</option>
-							<option value="11am">11am</option>
-							<option value="12pm">12pm</option>
-							<option value="1pm">1pm</option>
-							<option value="2pm">2pm</option>
-							<option value="3pm">3pm</option>
-							<option value="4pm">4pm</option>
-							<option value="5pm">5pm</option>
-							<option value="6pm">6pm</option>
-							<option value="7pm">7pm</option>
-							<option value="8pm">8pm</option>
-							<option value="9pm">9pm</option>
-							<option value="after-10">10pm or later</option>
-							<option value="not-sure">Not sure yet</option>
-						</select></br>
-						**Please note: all guests must depart by 1pm on Sunday** </br>
-					If you don’t have your plans finalized yet, please provide whatever information you can.</br>
-					<textarea rows="10" cols="50">
-					</textarea></br>
+					<option value="early">Before 9am</option>
+					<option value="9am">9am</option>
+					<option value="10am">10am</option>
+					<option value="11am">11am</option>
+					<option value="12pm">12pm</option>
+					<option value="1pm">1pm</option>
+					<option value="2pm">2pm</option>
+					<option value="3pm">3pm</option>
+					<option value="4pm">4pm</option>
+					<option value="5pm">5pm</option>
+					<option value="6pm">6pm</option>
+					<option value="7pm">7pm</option>
+					<option value="8pm">8pm</option>
+					<option value="9pm">9pm</option>
+					<option value="after-10">10pm or later</option>
+					<option value="not-sure">Not sure yet</option>
+					</select></br>
+					**Please note: all guests must depart by 1pm on Sunday** </br>
+				If you don’t have your plans finalized yet, please provide whatever information you can.</br>
+				<textarea rows="10" cols="50">
+				</textarea></br>
 	   			Would you like a shuttle from the ____________ Metro North Station ($15 per person round trip)? <input type="radio" name="shuttle" value="Yes" selected>Yes    <input type="radio" name="shuttle" value="No">No</br>
 	   			There will be a BBQ dinner on Friday Night to welcome guests as they arrive and help everyone get to know each other.  This is the ONLY meal not included in the housing cost for the weekend, and is $18 per person (must be paid in advance).  There will also be a cash bar for wine and beer, so plan accordingly.</br>
 				Will you join us for the BBQ on Friday night?
