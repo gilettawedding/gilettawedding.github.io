@@ -121,7 +121,10 @@ body {
 	color: #3f3f3f;
 	font-family: 
 }
-
+.content form strong {
+	font-weight: 600;
+	color: #5f5f5d;
+}
 
 
 /*
