@@ -36,7 +36,7 @@ body {
     position: absolute;
 	width: 100%;
 	bottom: 0px;
-	margin: 0px 0px;
+	margin: -6px 0px;
 	display: inline-block;
 	font-family: Duality-Regular;
 	font-size: 48px;
@@ -45,12 +45,12 @@ body {
     border: none;
     display: inline-block;
     height: 48px;
-	width: 32%;
+	width: 32.571%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
 	font-family: Duality-Regular;
-	font-size: 24px;
+	font-size: 30px;
 }
 #menu-wrapper .menu li a {
     color: #0717e5;
@@ -83,7 +83,7 @@ body {
     color: #00AE9E;
 }
 .content { 
-	margin: 10px auto 0 auto;
+	margin: 16px auto 0 auto;
     position: relative; 
     clear: both;
     padding: 10px;
