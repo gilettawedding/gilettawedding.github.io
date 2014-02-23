@@ -126,10 +126,14 @@ body {
 	color: #5f5f5d;
 }
 #word-cloud-wrapper{
-	width: 400px;
+	width: 410px;
 	height: 425px;
 	float: left;
 	margin: 0 5px 0 0;
+}
+#word-cloud-wraper img {
+	padding-right: 5px;
+	border: 1px solid #00AE9E;
 }
 center{
 	text-align: center;
