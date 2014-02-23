@@ -13,7 +13,7 @@ body {
 	background: none no-repeat transparent;
 }
 #header {
-    height: 200px;
+    height: 250px;
 	width: 960px;
     position: relative;
 	display: block;
@@ -26,14 +26,13 @@ body {
 	position: relative;
 	margin: 0px;
 }          
-/*
-#header h2 {
-	float: right;
-	display: block;
-	position: relative;
-}                      
-*/
-#header ol.menu{
+#menu-wrapper {
+	width: 100%;
+	height: 48px;
+	margin: 0 auto;
+	display: inline-block;
+}
+#menu-wrapper ol.menu{
     background: none repeat scroll 0 0 transparent #1a2b3c;
     position: absolute;
 	width: 536px;
@@ -43,7 +42,7 @@ body {
 	font-family: Duality-Regular;
 	font-size: 48px;
 }
-#header ol.menu li {
+#menu-wrapper ol.menu li {
     border: none;
     display: inline-block;
     height: 30px;
@@ -54,7 +53,7 @@ body {
 	font-family: Duality-Regular;
 	font-size: 24px;
 }
-#header .menu li a {
+#menu-wrapper .menu li a {
     color: blue;
     display: inline-block;
     padding: 5px 0px;
@@ -66,20 +65,20 @@ body {
 	background-position: left top;
 	background-repeat: no-repeat;
 }
-#header .menu li#home a {  
+#menu-wrapper .menu li#home a {  
 	text-align: center; 	
 }
-#header .menu li#venue a {  
+#menu-wrapper .menu li#venue a {  
 	text-align: center; 
 }
-#header .menu li#info a{ 
+#menu-wrapper .menu li#info a{ 
 	text-align: center; 
 }                                      
-#header .menu li#register a{
+#menu-wrapper .menu li#register a{
 	text-align: center; 
 }                                       
 
-#header .menu li a:hover, .menu li a:focus {
+#menu-wrapper .menu li a:hover, .menu li a:focus {
     color: #00AE9E;
 }
 .content { 
