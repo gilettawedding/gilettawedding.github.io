@@ -33,7 +33,6 @@ body {
 	display: inline-block;
 }
 #menu-wrapper ol.menu{
-    background: #00AE9E;
     position: absolute;
 	width: 100%;
 	bottom: 0px;
@@ -45,8 +44,8 @@ body {
 #menu-wrapper ol.menu li {
     border: none;
     display: inline-block;
-    height: 30px;
-	width: 32%;
+    height: 48px;
+	width: 33%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
@@ -55,6 +54,7 @@ body {
 }
 #menu-wrapper .menu li a {
     color: #0717e5;
+    background: #00AE9E;
     display: inline-block;
     padding: 5px 0px;
     position: relative;
