@@ -110,6 +110,18 @@ body {
 .content p strong{
 	color: #5f5f5d;
 }
+.content form {
+	color: #838381;
+	line-height: 180%;
+}
+.content form h2 {
+	text-decoration: underline;
+	font-size: 24px;
+	color: #3f3f3f;
+}
+
+
+
 /*
 .content .wrapper {
     overflow: hidden;
