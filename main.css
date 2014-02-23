@@ -125,6 +125,12 @@ body {
 	font-weight: 600;
 	color: #5f5f5d;
 }
+#word-cloud-wrapper{
+	width: 400px;
+	height: 425px;
+	float: left;
+	margin: 0 5px 0 0;
+}
 center{
 	text-align: center;
 }
