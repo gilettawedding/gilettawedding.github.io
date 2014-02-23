@@ -36,6 +36,7 @@
 	Child: - <input type="text" name="child1" required></br>
 	Child: - <input type="text" name="child2" required></br>
 	Child: - <input type="text" name="child3" required></br>
+			<h2 id="travel">Travel Details</h2>
 	   			Arrival Date: <select name="arrival-date" required>
 					<option value="friday">Friday</option>
 					<option value="saturday">Saturday</option>
@@ -88,38 +89,34 @@
 					If you don’t have your plans finalized yet, please provide whatever information you can.</br>
 					<textarea rows="10" cols="50">
 					</textarea></br>
-	   			Friday dinner? <input type="radio" name="Friday-dinner" value="Yes" selected>Yes    <input type="radio" name="Friday-dinner" value="No">No</br>
-	   			On-site Accommodation Preference: <select name="lodging" required>
-					<option value="nul"></option>
-					<option value="Motel">Motel Room</option>
-					<option value="Bunk">Hostel-style Bunk</option>
+	   			Would you like a shuttle from the ____________ Metro North Station ($15 per person round trip)? <input type="radio" name="shuttle" value="Yes" selected>Yes    <input type="radio" name="shuttle" value="No">No</br>
+	   			There will be a BBQ dinner on Friday Night to welcome guests as they arrive and help everyone get to know each other.  This is the ONLY meal not included in the housing cost for the weekend, and is $18 per person (must be paid in advance).  There will also be a cash bar for wine and beer, so plan accordingly.</br>
+				Will you join us for the BBQ on Friday night?
+				<input type="radio" name="BBQ" value="yes">Yes    <input type="radio" name="BBQ" value="no">No</br>
+				<h2 id="accomodations">Accommodations</h2>
+				Which night(s) will you be staying with us?</br>
+				<input type="radio" name="friday-check" value="staying">Friday</br>
+				<input type="radio" name="saturday-check" value="staying">Saturday</br>
+				<input type="radio" name="off-site" value="off-site">I'll be staying off-site</br>
+				Please note: Housing prices include meals.  Friday housing includes Saturday breakfast and lunch; Saturday housing includes Sunday Send-off brunch.  Anyone staying off-site should contact us regarding on-site meals other than Saturday reception.
+				On-site Accommodation Preference: <select name="lodging" required>
+					<option value="Motel">Motel Room - $125 per night (NOT per person)</option>
+					<option value="Bunk">Hostel-style Bunk - $50 per person per night</option>
+					<option value="other">Other, please specify below</option>
 				</select></br>
+				<textarea rows="10" cols="50">
+				</textarea></br>
+				<h2>Miscellaneous</h2>
+				Do you have any dietary restrictions?
+				<input type="text" name="dietary-restrictions">
+				What is your favorite dance and/or love song?
+				<input type="text" name="fav-song"></br>
 	      		<input type="submit" value="Submit">
 			</form>
 		</div>
 	</div>
 </body>
 
-SHUTTLE:
-    - Would you like a shuttle from the ____________ Metro North Station ($15 per person round trip)
-
-FRIDAY NIGHT BBQ:
-    - There will be a BBQ dinner on Friday Night to welcome guests as they arrive and help everyone get to know each other.  This is the ONLY meal not included in the housing cost for the weekend, and is $18 per person (must be paid in advance).  There will also be a cash bar for wine and beer, so plan accordingly.
-
-Lodging:
-
-ACCOMODATIONS:
-    - Which night(s) will you be staying with us? 
-(Friday, Saturday, “I’ll be staying off-site” checkboxes)
-
-Please note: Housing prices include meals.  Friday housing includes Saturday breakfast and lunch; Saturday housing includes Sunday Send-off brunch.  Anyone staying off-site should contact us regarding on-site meals other than Saturday reception.
-
-    - Which is your housing preference:
-      	 Dropdown:   	* Definitely Motel-style Room - $$$
-* Prefer Motel, but open to Hostel-style bunk - $$$
-* Definitely a Hostel-style bunk - $$$
-		* Other, please specify below
-**Comment box**
 
 Meals:
     - Do you have an dietary restrictions?
