@@ -33,16 +33,18 @@
 			<h1> RSVP Form</h1>
 			<form name="rsvp-form" action="mailto:Gilettawedding2014@gmail.com" method="post">
 	  			Please list the names of everyone in your party (please note our guidelines regarding plus ones).</br>
- 				Adult: - <input type="text" name="adult1" required>               Child: - <input type="text" name="child1"></br>
-				Adult: - <input type="text" name="adult2">               Child: - <input type="text" name="child2"></br>
-				Adult: - <input type="text" name="adult2">               Child: - <input type="text" name="child3"></br></br>
+ 				<label for="adult1">Adult: </label><input type="text" name="adult1" required>               <label for="child1">Child: </label><input type="text" name="child1"></br>
+				<label for="adult2">Adult: </label><input type="text" name="adult2">               <label for="child2">Child: </label><input type="text" name="child2"></br>
+				<label for="adult3">Adult: </label><input type="text" name="adult2">               <label for="child3">Child: </label><input type="text" name="child3"></br></br>
 				<h2 id="travel">Travel Details</h2></br>
 	    		Arrival Date: <select name="arrival-date" required>
+	    			<option value=""></option>
 	    			<option value="friday">Friday</option>
 	    			<option value="saturday">Saturday</option>
 	    			<option value="not-sure">Not sure yet</option>
 	    		</select></br>
 	    		Arrival Time: <select name="arrival-time" required>
+				    <option value=""></option>
 				    <option value="early">Before 9am</option>
 				    <option value="9am">9am</option>
 				    <option value="10am">10am</option>
@@ -64,11 +66,13 @@
 				<textarea rows="10" cols="50">
 				</textarea></br>
 				Departure Date: <select name="departure-date" required>
+					<option value=""></option>
 					<option value="Saturday">Saturday</option>
 					<option value="Sunday">Sunday</option>
 					<option value="not-sure">Not sure yet</option>
 				</select></br>
 				Departure Time: <select name="departure-time" required>
+					<option value=""></option>
 					<option value="early">Before 9am</option>
 					<option value="9am">9am</option>
 					<option value="10am">10am</option>
