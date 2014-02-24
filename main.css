@@ -138,6 +138,10 @@ body {
 center{
 	text-align: center;
 }
+#rsvp-wrapper {
+	text-align: center;
+	color: #3f3f3f;
+	}
 
 .button {
 	-moz-box-shadow:inset 0px 1px 25px 0px #8efaab;
