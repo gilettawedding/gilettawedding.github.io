@@ -37,13 +37,13 @@
 				<label for="adult2">Adult: </label><input type="text" name="adult2">               <label for="child2">Child: </label><input type="text" name="child2"></br>
 				<label for="adult3">Adult: </label><input type="text" name="adult2">               <label for="child3">Child: </label><input type="text" name="child3"></br></br>
 				<h2 id="travel">Travel Details</h2></br>
-	    		Arrival Date: <select name="arrival-date" required>
+	    		<label for "arrival-date">Arrival Date: </label><select name="arrival-date" required>
 	    			<option value=""></option>
 	    			<option value="friday">Friday</option>
 	    			<option value="saturday">Saturday</option>
 	    			<option value="not-sure">Not sure yet</option>
 	    		</select></br>
-	    		Arrival Time: <select name="arrival-time" required>
+	    		<label for "arrival-time">Arrival Time: </label><select name="arrival-time" required>
 				    <option value=""></option>
 				    <option value="early">Before 9am</option>
 				    <option value="9am">9am</option>
@@ -65,13 +65,13 @@
 				If you don’t have your plans finalized yet, please provide whatever information you can.</br>
 				<textarea rows="10" cols="50">
 				</textarea></br>
-				Departure Date: <select name="departure-date" required>
+				<label for "departure-date">Departure Date: </label><select name="departure-date" required>
 					<option value=""></option>
 					<option value="Saturday">Saturday</option>
 					<option value="Sunday">Sunday</option>
 					<option value="not-sure">Not sure yet</option>
 				</select></br>
-				Departure Time: <select name="departure-time" required>
+				<label for "departure-time">Departure Time: </label><select name="departure-time" required>
 					<option value=""></option>
 					<option value="early">Before 9am</option>
 					<option value="9am">9am</option>
@@ -94,29 +94,29 @@
 				If you don’t have your plans finalized yet, please provide whatever information you can.</br>
 				<textarea rows="10" cols="50">
 				</textarea></br>
-	   			Would you like a shuttle from the ____________ Metro North Station ($15 per person round trip)? <input type="radio" name="shuttle" value="Yes" selected>Yes    <input type="radio" name="shuttle" value="No">No</br>
-	   			There will be a BBQ dinner on Friday Night to welcome guests as they arrive and help everyone get to know each other.  This is the ONLY meal not included in the housing cost for the weekend, and is $18 per person (must be paid in advance).  There will also be a cash bar for wine and beer, so plan accordingly.</br>
-				Will you join us for the BBQ on Friday night?
+	   			<label for "shuttle">Would you like a shuttle from the train ($15 per person round trip)?  Shuttle goes to the <ahref="http://as0.mta.info/mnr/stations/station_detail.cfm?key=166">Pawling Station</a> on Metro North's Harlem line.  </label><input type="radio" name="shuttle" value="Yes" selected>Yes    <input type="radio" name="shuttle" value="No">No</br>
+	   			<label for "BBQ">There will be a BBQ dinner on Friday Night to welcome guests as they arrive and help everyone get to know each other.  This is the ONLY meal not included in the housing cost for the weekend, and is $18 per person (must be paid in advance).  There will also be a cash bar for wine and beer, so plan accordingly.</br>
+				Will you join us for the BBQ on Friday night?</label>
 				<input type="radio" name="BBQ" value="yes">Yes    <input type="radio" name="BBQ" value="no">No</br></br>
 				<h2 id="accomodations">Accommodations</h2></br>
-				Which night(s) will you be staying with us?</br>
-				<input type="checkbox" name="friday-check" value="staying">Friday</br>
-				<input type="checkbox" name="saturday-check" value="staying">Saturday</br>
-				<input type="checkbox" name="off-site" value="off-site">I'll be staying off-site</br>
+				<label for "on-site-lodging">Which night(s) will you be staying with us?</label></br>
+				<input type="checkbox" name="on-site-lodging" value="staying-friday">Friday</br>
+				<input type="checkbox" name="on-site-lodging" value="staying-saturday">Saturday</br>
+				<input type="checkbox" name="on-site-lodging" value="off-site">I'll be staying off-site</br>
 				Please note: Housing prices include meals.  Friday housing includes Saturday breakfast and lunch; Saturday housing includes Sunday Send-off brunch.  Anyone staying off-site should contact us regarding on-site meals other than Saturday reception.
-				On-site Accommodation Preference: <select name="lodging" required>
+				<label for "accomodation-preference">On-site Accommodation Preference: </label><select name="lodging" required>
 					<option value="Motel">Motel Room - $125 per room per night</option>
 					<option value="Bunk">Hostel-style Bunk - $50 per person per night</option>
 					<option value="other">Other, please specify below</option>
 				</select> <a href="/venue#accomodations" target="_blank">more info</a></br>
 				Linens are provided for all motel rooms, but are not included for bunks.</br>
-				If you chose a bunk, will you need linens ($5 for a "bed in a bag" for the weekend)? <input type="checkbox" name="bed-in-bag" value="yes">Yes    <input type="checkbox" name="bed-in-bag" value="no">No</br>
+				<label for "bed-in-bag">If you chose a bunk, will you need linens ($5 for a "bed in a bag" for the weekend)? </label><input type="checkbox" name="bed-in-bag" value="yes">Yes    <input type="checkbox" name="bed-in-bag" value="no">No</br>
 				<textarea rows="10" cols="50">
 				</textarea></br></br>
 				<h2>Miscellaneous</h2></br>
-				Do you have any dietary restrictions?
+				<label for "dietary-restrictions">Do you have any dietary restrictions?</label>
 				<input type="text" name="dietary-restrictions"></br>
-				What is your favorite dance and/or love song?
+				<label for "fav-song">What is your favorite dance and/or love song?</label>
 				<input type="text" name="fav-song"></br>
 				If you answered "not sure" to any of these questions please email us at: <strong>gilettawedding2014@gmail.com</strong> as soon as you know.  If we haven't heard from you by April 15, 2014 we will begin our harassment campaign via email.  Consider yourself warned.</br>
 				<center>OR</center>
