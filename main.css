@@ -138,6 +138,9 @@ body {
 center{
 	text-align: center;
 }
+.centered {
+	text-align: center;
+}
 #rsvp-wrapper {
 	text-align: center;
 	color: #3f3f3f;
