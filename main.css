@@ -139,30 +139,47 @@ center{
 	text-align: center;
 }
 
-/*
-.content .wrapper {
-    overflow: hidden;
-} 
-*/
-/*
-#footer a:link {
-    color: #5485DF;
-    text-decoration: none;
+.button {
+	-moz-box-shadow:inset 0px 1px 25px 0px #8efaab;
+	-webkit-box-shadow:inset 0px 1px 25px 0px #8efaab;
+	box-shadow:inset 0px 1px 25px 0px #8efaab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d4df5), color-stop(1, #22d46f) );
+	background:-moz-linear-gradient( center top, #3d4df5 5%, #22d46f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d4df5', endColorstr='#22d46f');
+	background-color:#3d4df5;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #1f2e8f;
+	display:inline-block;
+	color:#ffffff;
+	font-family: Duality-Regular;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:86px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 17px #1635cc;
 }
-#footer a:visited {
-    color: #2C5AAB;
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #22d46f), color-stop(1, #3d4df5) );
+	background:-moz-linear-gradient( center top, #22d46f 5%, #3d4df5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#22d46f', endColorstr='#3d4df5');
+	background-color:#22d46f;
+}.button:active {
+	position:relative;
+	top:1px;
 }
-#footer a:hover, #footer a:focus {
-    text-decoration: underline;
-}
-#footer {
-    background: url("../images/backgrounds/footer.png") repeat-y scroll 50% 0 transparent;
-    color: #A9A9A9;
-    line-height: 1.5em;
-    overflow: hidden;
-}
-#footer .main {
-    float: left;
-    width: 733px;
-}
-*/
