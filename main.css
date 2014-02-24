@@ -147,13 +147,13 @@ center{
 	}
 
 .button {
-	-moz-box-shadow:inset 0px 1px 25px 0px #8efaab;
-	-webkit-box-shadow:inset 0px 1px 25px 0px #8efaab;
-	box-shadow:inset 0px 1px 25px 0px #8efaab;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d4df5), color-stop(1, #22d46f) );
-	background:-moz-linear-gradient( center top, #3d4df5 5%, #22d46f 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d4df5', endColorstr='#22d46f');
-	background-color:#3d4df5;
+	-moz-box-shadow:inset 0px 0px 21px 4px #00ae9d;
+	-webkit-box-shadow:inset 0px 0px 21px 4px #00ae9d;
+	box-shadow:inset 0px 0px 21px 4px #00ae9d;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0716e5), color-stop(1, #00ae9d) );
+	background:-moz-linear-gradient( center top, #0716e5 5%, #00ae9d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0716e5', endColorstr='#00ae9d');
+	background-color:#0716e5;
 	-webkit-border-top-left-radius:20px;
 	-moz-border-radius-topleft:20px;
 	border-top-left-radius:20px;
@@ -167,10 +167,10 @@ center{
 	-moz-border-radius-bottomleft:20px;
 	border-bottom-left-radius:20px;
 	text-indent:0;
-	border:1px solid #1f2e8f;
+	border:1px solid #1d3df0;
 	display:inline-block;
 	color:#ffffff;
-	font-family: Duality-Regular;
+	font-family:Duality-Regular;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
@@ -182,10 +182,10 @@ center{
 	text-shadow:1px 1px 17px #1635cc;
 }
 .button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #22d46f), color-stop(1, #3d4df5) );
-	background:-moz-linear-gradient( center top, #22d46f 5%, #3d4df5 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#22d46f', endColorstr='#3d4df5');
-	background-color:#22d46f;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00ae9d), color-stop(1, #0716e5) );
+	background:-moz-linear-gradient( center top, #00ae9d 5%, #0716e5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ae9d', endColorstr='#0716e5');
+	background-color:#00ae9d;
 }.button:active {
 	position:relative;
 	top:1px;
