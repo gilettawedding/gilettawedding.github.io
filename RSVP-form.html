@@ -31,7 +31,7 @@
 		</div>
 		<div class= "content">
 			<h1> RSVP Form</h1>
-			<form name="rsvp-form" action="mailto:Gilettawedding2014@gmail.com" method="post">
+			<form name="rsvp-form" action="send-form.php" method="post">
 	  			Please list the names of everyone in your party (please note our guidelines regarding plus ones).</br>
  				<label for="adult1">Adult: </label><input type="text" name="adult1" required>               <label for="child1">Child: </label><input type="text" name="child1"></br>
 				<label for="adult2">Adult: </label><input type="text" name="adult2">               <label for="child2">Child: </label><input type="text" name="child2"></br>
@@ -109,6 +109,7 @@
 					<option value="Bunk">Hostel-style Bunk - $50 per person per night</option>
 					<option value="other">Other, please specify below</option>
 				</select> <a href="/venue#accomodations" target="_blank">more info</a></br>
+				<textarea rows="10" cols="50" name="accomodations-comments"></textarea>
 				Linens are provided for all motel rooms, but are not included for bunks.</br>
 				<label for "bed-in-bag">If you chose a bunk, will you need linens ($5 for a "bed in a bag" for the weekend)? </label><input type="checkbox" name="bed-in-bag" value="yes">Yes    <input type="checkbox" name="bed-in-bag" value="no">No</br>
 				<h2>Miscellaneous</h2></br>
@@ -123,7 +124,7 @@
 				<textarea rows="10" cols="50" name="final-comments">
 				</textarea></br></br>
 	      		<input type="submit" value="Submit">
-	      		</br></br></br>
+	      		</br></br>
 			</form>
 		</div>
 	</div>

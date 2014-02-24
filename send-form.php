@@ -34,17 +34,19 @@ if(isset($_POST['email'])) {
  
     // validation expected data exists
  
-    if(!isset($_POST['first_name']) ||
+    if(!isset($_POST['adult1']) ||
  
-        !isset($_POST['last_name']) ||
+        !isset($_POST['arrival-date']) ||
  
-        !isset($_POST['email']) ||
+        !isset($_POST['arrival-time']) ||
  
-        !isset($_POST['telephone']) ||
+        !isset($_POST['departure-date']) ||
  
-        !isset($_POST['comments'])) {
+        !isset($_POST['departure-time']) ||
+        
+        !isset($_POST['accomodation-prefference'])) {
  
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+        died('Uh oh, there are required questions that have not been answered');       
  
     }
  
@@ -66,17 +68,23 @@ if(isset($_POST['email'])) {
     
     $arrival_time = $_POST['arrival-time']; // required
     
+    $arrival_comments = $_POST['arrival-comments']; // not required
+    
     $departure_date = $_POST['departure-date']; // required
     
-    $departure_time = $_POST['departure-time']
+    $departure_time = $_POST['departure-time'] // required
     
-    $shuttle = $_POST['shuttle']; // required
+    $departure_comments = $_Post['departure-comments'] // not required
+    
+    $shuttle = $_POST['shuttle']; // not required
     
     $BBQ = $_POST['BBQ']; // not required
     
     $on_site_lodging = $_POST['on-site-lodging']; // not required
     
-    $accomodation_preference = $_POST['accomodation-preference']; // not required
+    $accomodation_preference = $_POST['accomodation-preference']; // required
+    
+    $accomosation_comments = $_POST['accomodation-comments']; // not required
     
     $bed_in_bag = $_POST['bed-in-bag']; // not required
     
@@ -84,39 +92,12 @@ if(isset($_POST['email'])) {
     
     $fav_song = $_POST['fav-song']; // not required
     
+    $final_comments = $_POST['final-comments']; // not required
     
     
     
+    
  
-    $error_message = "";
- 
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
- 
-  if(!preg_match($email_exp,$email_from)) {
- 
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
- 
-  }
- 
-    $string_exp = "/^[A-Za-z .'-]+$/";
- 
-  if(!preg_match($string_exp,$first_name)) {
- 
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(!preg_match($string_exp,$last_name)) {
- 
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(strlen($comments) < 2) {
- 
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
- 
-  }
  
   if(strlen($error_message) > 0) {
  
@@ -153,6 +134,8 @@ if(isset($_POST['email'])) {
     $email_message .= "Arrival Date: ".clean_string($arrival_date)."\n";
  
     $email_message .= "Arrival Time: ".clean_string($arrival_time)."\n";
+    
+    $email_message .= "Comments about Arrival: ".clean_string($arrival_comments)."\n"
  
     $email_message .= "Departure Date: ".clean_string($departure_date)."\n";
  
@@ -172,7 +155,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Favorite Song: ".clean_string($fav_song)."\n";
   
-     
+    $email_message .= "Final comments: ".clean_string($final_comments)."\n"
  
      
  
@@ -194,7 +177,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for RSVP-ing!  We will send your room assignment and an itemized invoice as soon as we've processed everything.
  
  
  
