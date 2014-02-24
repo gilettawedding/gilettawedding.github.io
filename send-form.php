@@ -50,17 +50,43 @@ if(isset($_POST['email'])) {
  
      
  
-    $first_name = $_POST['first_name']; // required
+    $adult1 = $_POST['adult1']; // required
  
-    $last_name = $_POST['last_name']; // required
+    $adult2 = $_POST['adult2']; // not required
  
-    $email_from = $_POST['email']; // required
+    $adult3 = $_POST['adult3']; // not required
  
-    $telephone = $_POST['telephone']; // not required
+    $child1 = $_POST['child1']; // not required
  
-    $comments = $_POST['comments']; // required
+    $child2 = $_POST['child2']; // not required
  
-     
+    $child3 = $_POST['child3']; // not required
+    
+    $arrival_date = $_POST['arrival-date']; // required
+    
+    $arrival_time = $_POST['arrival-time']; // required
+    
+    $departure_date = $_POST['departure-date']; // required
+    
+    $departure_time = $_POST['departure-time']
+    
+    $shuttle = $_POST['shuttle']; // required
+    
+    $BBQ = $_POST['BBQ']; // not required
+    
+    $on_site_lodging = $_POST['on-site-lodging']; // not required
+    
+    $accomodation_preference = $_POST['accomodation-preference']; // not required
+    
+    $bed_in_bag = $_POST['bed-in-bag']; // not required
+    
+    $dietary_restrictions = $_POST['dietary-restrictions']; // not required
+    
+    $fav_song = $_POST['fav-song']; // not required
+    
+    
+    
+    
  
     $error_message = "";
  
@@ -112,16 +138,40 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
+    $email_message .= "Adult1 ".clean_string($adult1)."\n";
  
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+    $email_message .= "Adult2 ".clean_string($Adult2)."\n";
  
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Adult3: ".clean_string($adult3)."\n";
  
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $email_message .= "Child1: ".clean_string($child1)."\n";
  
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Child2: ".clean_string($child2)."\n";    
+    
+    $email_message .= "child3 ".clean_string($child3)."\n";
  
+    $email_message .= "Arrival Date: ".clean_string($arrival_date)."\n";
+ 
+    $email_message .= "Arrival Time: ".clean_string($arrival_time)."\n";
+ 
+    $email_message .= "Departure Date: ".clean_string($departure_date)."\n";
+ 
+    $email_message .= "Departure Time: ".clean_string($departure_time)."\n";    
+    
+    $email_message .= "Shuttle ".clean_string($shuttle)."\n";
+ 
+    $email_message .= "BBQ: ".clean_string($BBQ)."\n";
+ 
+    $email_message .= "What nights will you be staying with us: ".clean_string($on_site_lodging)."\n";
+ 
+    $email_message .= "Accomodation Preference: ".clean_string($accomodation_preference)."\n";
+ 
+    $email_message .= "Bed-in-a-bag: ".clean_string($bed_in_bag)."\n";    
+    
+    $email_message .= "Dietary Restrictions ".clean_string($dietary_restrictions)."\n";
+ 
+    $email_message .= "Favorite Song: ".clean_string($fav_song)."\n";
+  
      
  
      
