@@ -12,6 +12,15 @@ body {
     width: 960px;
 	background: none no-repeat transparent;
 }
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.centered {
+	text-align: center;
+}
 #header {
     height: 250px;
 	width: 960px;
@@ -19,7 +28,7 @@ body {
 	display: block;
 	margin: 35px auto 0 auto;
 	padding: 0px;
-	background: url("images/backgrounds/header.png") no-repeat scroll;
+	background: url("images/header.png") no-repeat scroll;
 } 
 #header h1 {
 	display: block;
@@ -45,7 +54,7 @@ body {
     border: none;
     display: inline-block;
     height: 48px;
-	width: 32.571%;
+	width: 19%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
@@ -73,8 +82,11 @@ body {
 }
 #menu-wrapper .menu li#info a{ 
 	text-align: center; 
-}                                      
-#menu-wrapper .menu li#register a{
+}     
+#menu-wrapper .menu li#schedule a {
+	text-align: center;
+}                                 
+#menu-wrapper .menu li#registry a{
 	text-align: center; 
 }                                       
 
@@ -83,10 +95,10 @@ body {
     color: #00AE9E;
 }
 .content { 
-	margin: 16px auto 0 auto;
+	margin: 16px auto 35px auto;
     position: relative; 
     clear: both;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
 	background: #fafafa scroll;
 }
 .content h1 {
@@ -98,9 +110,13 @@ body {
 }
 .content h3 {
 	text-decoration: underline;
-	font-family: ;
 	font-size: 24px;
 	color: #3f3f3f;
+}
+.content h4 {
+	text-decoration: none;
+	font-size: 20px;
+	color: #5f5f5d;
 }
 .content p {
 	color: #838381;
@@ -125,26 +141,30 @@ body {
 	font-weight: 600;
 	color: #5f5f5d;
 }
+
 #word-cloud-wrapper{
 	width: 410px;
 	height: 425px;
-	float: left;
 	margin: 0 5px 0 0;
 }
 #wordcloud {
 	padding-right: 5px;
 	border: 1px solid #00AE9E;
 }
-center{
-	text-align: center;
-}
-.centered {
-	text-align: center;
-}
+
+
 #rsvp-wrapper {
 	text-align: center;
 	color: #3f3f3f;
-	}
+}
+#to-do-image-wrapper {
+	clear: both;
+	width: 40%;
+}
+#to-have-image-wrapper {
+	clear: both;
+	width: 40%;
+}
 
 .button {
 	-moz-box-shadow:inset 0px 0px 21px 4px #00ae9d;
@@ -189,7 +209,4 @@ center{
 }.button:active {
 	position:relative;
 	top:1px;
-}
-.margin-shift {
-	margin-left: 53px;
 }
