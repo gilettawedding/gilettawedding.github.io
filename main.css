@@ -159,11 +159,13 @@ body {
 }
 #to-do-image-wrapper {
 	clear: both;
-	width: 40%;
+	width: 300px;
+	margin: 0 10px;
 	}
 #to-have-image-wrapper {
 	clear: both;
-	width: 40%;
+	width: 300px;
+	margin: 0 10px;
 }
 
 .button {
