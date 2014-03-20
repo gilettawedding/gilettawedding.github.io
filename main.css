@@ -21,6 +21,10 @@ body {
 .centered {
 	text-align: center;
 }
+.margin-centered {
+	width: 100%
+	margin: 0 auto;
+}
 #header {
     height: 250px;
 	width: 960px;
