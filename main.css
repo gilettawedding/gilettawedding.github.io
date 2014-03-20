@@ -146,6 +146,7 @@ body {
 	width: 410px;
 	height: 425px;
 	margin: 0 5px 0 0;
+	float: left;
 }
 #wordcloud {
 	padding-right: 5px;
