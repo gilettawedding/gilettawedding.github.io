@@ -24,7 +24,7 @@ body {
 .margin-centered {
 	clear: both;
 	width: 100%
-	margin: 0 auto;
+	margin: 35px auto;
 }
 #header {
     height: 250px;
