@@ -21,7 +21,7 @@ body {
 .centered {
 	text-align: center;
 }
-.margin-centered {
+h3.margin-centered {
 	width: 100%
 	margin: 0 auto;
 }
