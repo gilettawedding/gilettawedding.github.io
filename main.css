@@ -173,10 +173,10 @@ h3.margin-centered {
 	margin: 0 auto;
 	text-align: center;
 }
-#to-do {
+.content p #to-do {
 	margin: auto 0;
 }
-#to-have {
+.content .p #to-have {
 	padding: auto 0;
 }
 .button {
