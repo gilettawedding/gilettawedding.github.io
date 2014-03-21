@@ -99,7 +99,7 @@ h3.margin-centered {
     color: #00AE9E;
 }
 .content { 
-	margin: 16px auto 35px auto;
+	margin: 16px 20px 20px 20px;
     position: relative; 
     clear: both;
     padding: 10px 10px 40px 10px;
@@ -154,13 +154,13 @@ h3.margin-centered {
 	clear: both;
 	width: 300px;
 	height: 300px;
-	margin: 0 10px;
+	margin-right: 10px;
 }
 #to-have-image-wrapper {
 	clear: both;
 	width: 300px;
 	height: 300px;
-	margin: 0 10px;
+	margin-left: 10px;
 }
 #to-do-wrapper {
 	clear: both;
