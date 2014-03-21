@@ -163,6 +163,20 @@ h3.margin-centered {
 	clear: both;
 	margin: 25px 0px;
 }
+#to-do-title {
+	margin: 0 auto;
+	text-align: center;
+}
+#to-have-title {
+	margin: 0 auto;
+	text-align: center;
+}
+#to-do {
+	margin: auto 0;
+}
+#to-have {
+	padding: auto 0;
+}
 .button {
 	-moz-box-shadow:inset 0px 0px 21px 4px #00ae9d;
 	-webkit-box-shadow:inset 0px 0px 21px 4px #00ae9d;
