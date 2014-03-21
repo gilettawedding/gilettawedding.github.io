@@ -159,7 +159,7 @@ h3.margin-centered {
 }
 #to-do-wrapper {
 	clear: both;
-	padding-top: 40px;
+	margin-top: 40px;
 }
 #to-have-wrapper {
 	clear: both;
