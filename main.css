@@ -1,5 +1,5 @@
 html {
-    background: none no-repeat scroll transparent;
+	background: none no-repeat scroll transparent;
 	height: 100%;
 }
 body {
@@ -7,9 +7,9 @@ body {
 	font-family: sans-serif;	
 }
 .wrapper {
-    margin: 0px auto;
-    position: relative;
-    width: 960px;
+	margin: 0px auto;
+	position: relative;
+	width: 960px;
 	background: none no-repeat transparent;
 }
 .left {
@@ -26,9 +26,9 @@ h3.margin-centered {
 	margin: 0 auto;
 }
 #header {
-    height: 250px;
+	height: 250px;
 	width: 960px;
-    position: relative;
+	position: relative;
 	display: block;
 	margin: 35px auto 0 auto;
 	padding: 0px;
@@ -58,7 +58,7 @@ h3.margin-centered {
     border: none;
     display: inline-block;
     height: 48px;
-	width: 19%;
+	width: 19.08528%;
 	background: none transparent;
     list-style-type: none outside none;
     margin: 0 auto;
