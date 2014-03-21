@@ -145,6 +145,11 @@ h3.margin-centered {
 	text-align: center;
 	color: #3f3f3f;
 }
+#registry-blurb {
+	width: 77%;
+	text-align: center;
+	margin: 0 auto;
+}
 #to-do-image-wrapper {
 	clear: both;
 	width: 300px;
