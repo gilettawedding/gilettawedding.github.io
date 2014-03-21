@@ -3,7 +3,7 @@ html {
 	height: 100%;
 }
 body {
-	background: url("images/backgrounds/texture.png") repeat scroll top left;
+	background: url("images/texture.png") repeat scroll top left;
 	font-family: sans-serif;	
 }
 .wrapper {
