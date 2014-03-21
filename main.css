@@ -159,12 +159,10 @@ h3.margin-centered {
 }
 #to-do-wrapper {
 	clear: both;
-	margin: 25px 0;
 	padding-bottom: 60px;
 }
 #to-have-wrapper {
 	clear: both;
-	margin: 25px 0px;
 	padding: auto 0
 }
 #to-do-title {
