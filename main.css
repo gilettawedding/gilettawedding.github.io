@@ -99,10 +99,10 @@ h3.margin-centered {
     color: #00AE9E;
 }
 .content { 
-	margin: 16px 20px 20px 20px;
+	margin: 16px auto 20px auto;
     position: relative; 
     clear: both;
-    padding: 10px 10px 40px 10px;
+    padding: 20px;
 	background: #fafafa scroll;
 }
 .content h1 {
