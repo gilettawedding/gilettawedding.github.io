@@ -130,22 +130,6 @@ h3.margin-centered {
 .content p strong{
 	color: #5f5f5d;
 }
-.content form {
-	color: #838381;
-	line-height: 180%;
-	font-family: sans-serif;
-}
-.content form h2 {
-	text-decoration: underline;
-	font-size: 24px;
-	color: #3f3f3f;
-	font-family: 
-}
-.content form strong {
-	font-weight: 600;
-	color: #5f5f5d;
-}
-
 #word-cloud-wrapper{
 	width: 410px;
 	height: 425px;
@@ -173,11 +157,11 @@ h3.margin-centered {
 }
 #to-do-wrapper {
 	clear: both;
-	margin: 5px 0;
+	margin: 25px 0;
 }
 #to-have-wrapper {
 	clear: both;
-	padding: 5px 0px;
+	margin: 25px 0px;
 }
 .button {
 	-moz-box-shadow:inset 0px 0px 21px 4px #00ae9d;
