@@ -14,9 +14,11 @@ body {
 }
 .left {
 	float: left;
+	clear: both;
 }
 .right {
 	float: right;
+
 }
 .centered {
 	text-align: center;
@@ -140,7 +142,14 @@ h3.margin-centered {
 	border: 1px solid #00AE9E;
 }
 
-
+.pic {
+	height: 420px;
+	width: 420px;
+	position: relative;
+	display: block;
+	margin: 10px;
+	padding: 0px;
+}
 #rsvp-wrapper {
 	text-align: center;
 	color: #3f3f3f;
